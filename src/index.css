@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html.dark {
+    background-color: #0f172a;
+    color: #f1f5f9;
+  }
+  
+  html:not(.dark) {
+    background-color: #f8fafc;
+    color: #0f172a;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-900 text-gray-100 font-sans;
+}
+
+.dark body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+body:not(.dark) {
+  @apply bg-gray-100 text-gray-900;
+}
