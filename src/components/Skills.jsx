@@ -1,12 +1,11 @@
 import React from "react";
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiGithub, SiPhp, SiLaravel, SiMysql, SiNodedotjs, SiGit } from "react-icons/si";
+import { SiHtml5, SiCss3, SiReact, SiTailwindcss, SiGithub, SiPhp, SiLaravel, SiMysql, SiNodedotjs, SiGit } from "react-icons/si";
 import ScrollAnimation from "./ScrollAnimation";
 import { useTheme } from "./ThemeContext";
 
 const skills = [
   { icon: <SiHtml5 />, label: "HTML" },
   { icon: <SiCss3 />, label: "CSS" },
-  { icon: <SiJavascript />, label: "JavaScript" },
   { icon: <SiPhp />, label: "PHP" },
   { icon: <SiReact />, label: "React" },
   { icon: <SiTailwindcss />, label: "Tailwind CSS" },
