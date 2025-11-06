@@ -16,7 +16,7 @@ const Navbar = () => {
       </ul>
       <div className="flex items-center gap-4">
         <a
-          href="/cv.pdf"
+          href="./cv.pdf"
           download
           className="bg-teal-500 hover:bg-teal-600 text-white px-3 py-2 rounded-lg flex items-center gap-2 text-sm"
         >
