@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center py-6 px-4 sticky top-0 bg-gray-900 z-50 border-b border-gray-700">
-      <h1 className="text-2xl font-bold text-teal-400">Gilang Dev</h1>
+      <h1 className="text-2xl font-bold text-teal-400">GWD</h1>
       <ul className="hidden md:flex gap-6 text-gray-300">
         <li><a href="#about" className="hover:text-teal-400">About</a></li>
         <li><a href="#skills" className="hover:text-teal-400">Skills</a></li>

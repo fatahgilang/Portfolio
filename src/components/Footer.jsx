@@ -6,7 +6,7 @@ const Footer = () => {
   
   return (
     <footer className={`py-6 text-center ${darkMode ? 'text-gray-500 border-t border-gray-700' : 'text-gray-600 border-t border-gray-300'} mt-10`}>
-      © {new Date().getFullYear()} Gilang Dev. Dibuat dengan menggunakan React & Tailwind CSS.
+      © {new Date().getFullYear()} Dibuat dengan menggunakan React & Tailwind CSS.
     </footer>
   );
 };
