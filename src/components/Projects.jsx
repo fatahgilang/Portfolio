@@ -71,7 +71,7 @@ const Projects = () => {
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.98 }}
                 >
-                  Lihat Link Pengalaman
+                  Lihat Proyek
                 </motion.button>
               </div>
             </motion.div>

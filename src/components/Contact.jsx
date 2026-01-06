@@ -22,7 +22,7 @@ const Contact = () => {
         <ScrollAnimation delay={0.2}>
           <p className={`${darkMode ? 'text-gray-300' : 'text-gray-700'} mb-6`}>Tertarik bekerja sama atau ingin berdiskusi lebih lanjut?</p>
         </ScrollAnimation>
-        <ScrollAnimation delay={0.3}>
+        {/* <ScrollAnimation delay={0.3}>
           <motion.a
             href="mailto:fatahgilang23@gmail.com"
             className="inline-block px-6 py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-teal-500 to-cyan-500 hover:from-teal-600 hover:to-cyan-600 shadow-lg shadow-teal-500/20"
@@ -31,7 +31,7 @@ const Contact = () => {
           >
             Mulai Diskusi
           </motion.a>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
         <ScrollAnimation delay={0.5}>
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
             <motion.a href="mailto:fatahgilang23@gmail.com" className={`group p-6 rounded-2xl flex flex-col items-center gap-3 transition-transform hover:-translate-y-1 ${darkMode ? 'bg-gray-800' : 'bg-white border border-gray-200'}`} whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
