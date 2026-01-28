@@ -25,6 +25,9 @@ const ErrorBoundary = ({ children }) => {
     window.addEventListener('error', errorHandler);
     window.addEventListener('unhandledrejection', rejectionHandler);
     
+    // Log saat aplikasi dimuat
+    console.log('Application starting...');
+    
     return () => {
       window.removeEventListener('error', errorHandler);
       window.removeEventListener('unhandledrejection', rejectionHandler);

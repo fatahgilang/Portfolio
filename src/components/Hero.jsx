@@ -4,6 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import ScrollAnimation from "./ScrollAnimation";
 import { useTheme } from "./ThemeContext";
 import { FaGithub, FaInstagram } from "react-icons/fa";
+// Image imported from public folder
 
 const Hero = () => {
   const { darkMode } = useTheme();
@@ -102,7 +103,7 @@ const Hero = () => {
             >
               <div className={`w-full h-full rounded-full overflow-hidden ${darkMode ? 'bg-gray-900' : 'bg-white'}`}>
               <img 
-                src="image/profile.jpeg" 
+                src="/image/profile.jpeg" 
                 alt="Gilang Profile" 
                 className="w-full h-full object-cover"
               />
