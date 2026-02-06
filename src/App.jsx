@@ -11,6 +11,7 @@ import ProjectDetail from "./components/ProjectDetail";
 
 const App = () => {
   console.log('App component rendering...');
+  console.log('Theme context available:', useTheme());
   const { darkMode } = useTheme();
   const [route, setRoute] = React.useState(window.location.hash || "");
   const [projectData, setProjectData] = React.useState(null);
