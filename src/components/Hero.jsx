@@ -103,9 +103,16 @@ const Hero = () => {
             >
               <div className={`w-full h-full rounded-full overflow-hidden ${darkMode ? 'bg-gray-900' : 'bg-white'}`}>
               <img 
-                src="/image/profile.jpeg" 
+                src="/Portfolio/image/profile.jpeg" 
                 alt="Gilang Profile" 
                 className="w-full h-full object-cover"
+                onError={(e) => {
+                  console.error('Error loading image:', e.target.src);
+                  e.target.style.display = 'none';
+                }}
+                onLoad={(e) => {
+                  console.log('Image loaded successfully:', e.target.src);
+                }}
               />
               </div>
             </motion.div>
